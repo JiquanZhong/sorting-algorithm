@@ -14,7 +14,7 @@ public class InsertionSort {
     System.out.println(verification(arr));
   }
 
-  private static void sort(int[] nums) {
+  public static void sort(int[] nums) {
     // TODO implementation of sorting algorithm
     // 插入排序：从后向前扫描，前面都是已排序的，插入合适位置
     int len = nums.length;
